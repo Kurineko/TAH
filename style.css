@@ -1,1 +1,33 @@
 /*This is balls*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: #C1272D;
+    
+
+}
+
+
+.header > .left {
+    display: flex;
+    gap: 10px;
+    margin-left: 15px;
+}
+
+.header > button {
+    height: fit-content;
+    align-self: center;
+    margin-right: 15px;
+}
+
+.title > h1 {
+    display: flex;
+    justify-self: center;
+}
