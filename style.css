@@ -1,9 +1,13 @@
 /*This is balls*/
+html{
+    height: 100vh;
+}
 
 body {
     display: flex;
     flex-direction: column;
     margin: auto;
+    justify-content: space-between;
 }
 
 .header {
@@ -37,4 +41,42 @@ body {
 .chooser {
     border: solid;
     height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.middle-info {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.middle-info > .left-info {
+    border: solid;
+    width: 300px;
+    height: 200px;
+}
+
+.middle-info > .right-image {
+    border: solid;
+    width: 350px;
+    height: 250px;
+}
+
+.chooser > .arrow-left, .arrow-right {
+    border: solid;
+    height: 40px;
+    width: 60px;
+}
+
+.gallery > h2 {
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+}
+
+.footer {
+    border: solid;
+    text-align: center;
 }
